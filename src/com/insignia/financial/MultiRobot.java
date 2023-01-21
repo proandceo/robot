@@ -4,6 +4,8 @@ package com.insignia.financial;
  * For multi robot
  */
 public class MultiRobot extends Robot{
+    String name;
+
     public MultiRobot(int x, int y, String currentDirection, String name){
         super(x, y, currentDirection);
         this.name = name;
@@ -16,6 +18,4 @@ public class MultiRobot extends Robot{
     public void setName(String name) {
         this.name = name;
     }
-
-    String name;
 }
